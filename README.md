@@ -1,9 +1,5 @@
 # github.io
 
-some more 
-
-htts://shinji-kono.github.io/
-
 
 [zf-in-agda/html/LEMC.html](zf-in-agda/html/LEMC.html)
 [zf-in-agda/html/NSet.html](zf-in-agda/html/NSet.html)
