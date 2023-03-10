@@ -43,7 +43,7 @@ Shinji KONO (kono@ie.u-ryukyu.ac.jp), University of the Ryukyus
 
 [ordinal](zf-in-agda/html/ordinal.html)   countable model of Ordinals
 
-[OPair](zf-in-agda/html/OPair.html)
+[ZProduct](zf-in-agda/html/ZProduct.html)
 
 [OrdUtil](zf-in-agda/html/OrdUtil.html)
 
