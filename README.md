@@ -37,6 +37,8 @@ Shinji KONO (kono@ie.u-ryukyu.ac.jp), University of the Ryukyus
 
 [filter](zf-in-agda/html/filter.html) Filter
 
+[filter-util](zf-in-agda/html/filter-util.html) Projection of Filter
+
 [generic-filter](zf-in-agda/html/generic-filter.html) Generic Filter
 
 [maximum-filter](zf-in-agda/html/maximum-filter.html) Maximum filter by Zorn lemma
