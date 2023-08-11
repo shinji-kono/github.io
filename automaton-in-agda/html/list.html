@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="utf-8"><title>list</title><link rel="stylesheet" href="Agda.css"></head><body><pre class="Agda"><a id="1" class="Keyword">module</a> <a id="8" href="list.html" class="Module">list</a> <a id="13" class="Keyword">where</a>
+
+    <a id="24" class="Keyword">postulate</a> <a id="A"></a><a id="34" href="list.html#34" class="Postulate">A</a> <a id="36" class="Symbol">:</a> <a id="38" href="Agda.Primitive.html#320" class="Primitive">Set</a>
+    <a id="46" class="Keyword">postulate</a> <a id="a"></a><a id="56" href="list.html#56" class="Postulate">a</a> <a id="58" class="Symbol">:</a> <a id="60" href="list.html#34" class="Postulate">A</a>
+    <a id="66" class="Keyword">postulate</a> <a id="b"></a><a id="76" href="list.html#76" class="Postulate">b</a> <a id="78" class="Symbol">:</a> <a id="80" href="list.html#34" class="Postulate">A</a>
+    <a id="86" class="Keyword">postulate</a> <a id="c"></a><a id="96" href="list.html#96" class="Postulate">c</a> <a id="98" class="Symbol">:</a> <a id="100" href="list.html#34" class="Postulate">A</a>
+
+    <a id="107" class="Keyword">infixr</a> <a id="114" class="Number">40</a> <a id="117" href="list.html#189" class="InductiveConstructor Operator">_::_</a>
+
+    <a id="127" class="Keyword">data</a>  <a id="List"></a><a id="133" href="list.html#133" class="Datatype">List</a>  <a id="139" class="Symbol">(</a><a id="140" href="list.html#140" class="Bound">A</a> <a id="142" class="Symbol">:</a> <a id="144" href="Agda.Primitive.html#320" class="Primitive">Set</a> <a id="148" class="Symbol">)</a> <a id="150" class="Symbol">:</a> <a id="152" href="Agda.Primitive.html#320" class="Primitive">Set</a>  <a id="157" class="Keyword">where</a>
+       <a id="List.[]"></a><a id="170" href="list.html#170" class="InductiveConstructor">[]</a> <a id="173" class="Symbol">:</a> <a id="175" href="list.html#133" class="Datatype">List</a> <a id="180" href="list.html#140" class="Bound">A</a>
+       <a id="List._::_"></a><a id="189" href="list.html#189" class="InductiveConstructor Operator">_::_</a> <a id="194" class="Symbol">:</a> <a id="196" href="list.html#140" class="Bound">A</a> <a id="198" class="Symbol">→</a> <a id="200" href="list.html#133" class="Datatype">List</a> <a id="205" href="list.html#140" class="Bound">A</a> <a id="207" class="Symbol">→</a> <a id="209" href="list.html#133" class="Datatype">List</a> <a id="214" href="list.html#140" class="Bound">A</a>
+
+    <a id="221" class="Keyword">infixl</a> <a id="228" class="Number">30</a> <a id="231" href="list.html#241" class="Function Operator">_++_</a>
+
+    <a id="_++_"></a><a id="241" href="list.html#241" class="Function Operator">_++_</a> <a id="246" class="Symbol">:</a>   <a id="250" class="Symbol">{</a><a id="251" href="list.html#251" class="Bound">A</a> <a id="253" class="Symbol">:</a> <a id="255" href="Agda.Primitive.html#320" class="Primitive">Set</a> <a id="259" class="Symbol">}</a> <a id="261" class="Symbol">→</a> <a id="263" href="list.html#133" class="Datatype">List</a> <a id="268" href="list.html#251" class="Bound">A</a> <a id="270" class="Symbol">→</a> <a id="272" href="list.html#133" class="Datatype">List</a> <a id="277" href="list.html#251" class="Bound">A</a> <a id="279" class="Symbol">→</a> <a id="281" href="list.html#133" class="Datatype">List</a> <a id="286" href="list.html#251" class="Bound">A</a>
+    <a id="292" href="list.html#170" class="InductiveConstructor">[]</a>        <a id="302" href="list.html#241" class="Function Operator">++</a> <a id="305" href="list.html#305" class="Bound">ys</a> <a id="308" class="Symbol">=</a> <a id="310" href="list.html#305" class="Bound">ys</a>
+    <a id="317" class="Symbol">(</a><a id="318" href="list.html#318" class="Bound">x</a> <a id="320" href="list.html#189" class="InductiveConstructor Operator">::</a> <a id="323" href="list.html#323" class="Bound">xs</a><a id="325" class="Symbol">)</a> <a id="327" href="list.html#241" class="Function Operator">++</a> <a id="330" href="list.html#330" class="Bound">ys</a> <a id="333" class="Symbol">=</a> <a id="335" href="list.html#318" class="Bound">x</a> <a id="337" href="list.html#189" class="InductiveConstructor Operator">::</a> <a id="340" class="Symbol">(</a><a id="341" href="list.html#323" class="Bound">xs</a> <a id="344" href="list.html#241" class="Function Operator">++</a> <a id="347" href="list.html#330" class="Bound">ys</a><a id="349" class="Symbol">)</a>
+
+    <a id="l1"></a><a id="356" href="list.html#356" class="Function">l1</a> <a id="359" class="Symbol">=</a> <a id="361" href="list.html#56" class="Postulate">a</a> <a id="363" href="list.html#189" class="InductiveConstructor Operator">::</a> <a id="366" href="list.html#170" class="InductiveConstructor">[]</a>
+    <a id="l2"></a><a id="373" href="list.html#373" class="Function">l2</a> <a id="376" class="Symbol">=</a> <a id="378" href="list.html#56" class="Postulate">a</a> <a id="380" href="list.html#189" class="InductiveConstructor Operator">::</a> <a id="383" href="list.html#76" class="Postulate">b</a> <a id="385" href="list.html#189" class="InductiveConstructor Operator">::</a> <a id="388" href="list.html#56" class="Postulate">a</a> <a id="390" href="list.html#189" class="InductiveConstructor Operator">::</a> <a id="393" href="list.html#96" class="Postulate">c</a> <a id="395" href="list.html#189" class="InductiveConstructor Operator">::</a>  <a id="399" href="list.html#170" class="InductiveConstructor">[]</a>
+    <a id="l3"></a><a id="406" href="list.html#406" class="Function">l3</a> <a id="409" class="Symbol">=</a> <a id="411" href="list.html#356" class="Function">l1</a> <a id="414" href="list.html#241" class="Function Operator">++</a> <a id="417" href="list.html#373" class="Function">l2</a>
+    <a id="l4"></a><a id="424" href="list.html#424" class="Function">l4</a> <a id="427" class="Symbol">=</a> <a id="429" href="list.html#406" class="Function">l3</a> <a id="432" href="list.html#241" class="Function Operator">++</a> <a id="435" href="list.html#406" class="Function">l3</a>
+
+    <a id="443" class="Comment">--</a>
+    <a id="450" class="Comment">--    ::  →  :: → :: →  []</a>
+    <a id="481" class="Comment">--    |      |    |</a>
+    <a id="505" class="Comment">--    a      b    c</a>
+
+</pre></body></html>
