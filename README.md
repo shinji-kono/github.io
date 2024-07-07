@@ -15,3 +15,6 @@ Shinji KONO (kono@ie.u-ryukyu.ac.jp), University of the Ryukyus
 
 [Automaton](automaton-in-agda/README.md)  
 
+## Category Exercices in Agda
+
+[CategoryExercise](CategoryExercise/README.md)  
