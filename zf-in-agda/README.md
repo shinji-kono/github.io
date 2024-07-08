@@ -9,47 +9,47 @@ Shinji KONO (kono@ie.u-ryukyu.ac.jp), University of the Ryukyus
 
 [code ](https://github.com/shinji-kono/) github 
 
-[zf](html/zf.html)  axiom of ZF
+[zf](https:/shinji-kono.github.io/zf-in-agda/html/zf.html)  axiom of ZF
 
-[zfc](html/zfc.html) axiom of choice
+[zfc](https:/shinji-kono.github.io/zf-in-agda/html/zfc.html) axiom of choice
 
-[NSet](html/NSet.html)  Naive Set Theory
+[NSet](https:/shinji-kono.github.io/zf-in-agda/html/NSet.html)  Naive Set Theory
 
-[Ordinals](html/Ordinals.html)  axiom of Ordinals
+[Ordinals](https:/shinji-kono.github.io/zf-in-agda/html/Ordinals.html)  axiom of Ordinals
 
-[OD](html/OD.html)   a model of ZF based on Ordinal Definable Set with assumptions
+[OD](https:/shinji-kono.github.io/zf-in-agda/html/OD.html)   a model of ZF based on Ordinal Definable Set with assumptions
 
-[ODC](html/ODC.html)   Law of exclude middle from axiom of choice assumptions
+[ODC](https:/shinji-kono.github.io/zf-in-agda/html/ODC.html)   Law of exclude middle from axiom of choice assumptions
 
-[LEMC](html/LEMC.html) choice with assumption of the Law of exclude middle 
+[LEMC](https:/shinji-kono.github.io/zf-in-agda/html/LEMC.html) choice with assumption of the Law of exclude middle 
 
-[BAlgebra](html/BAlgebra.html) Boolean algebra on OD (not yet done)
+[BAlgebra](https:/shinji-kono.github.io/zf-in-agda/html/BAlgebra.html) Boolean algebra on OD (not yet done)
 
-[zorn](html/zorn.html)  Zorn lemma
+[zorn](https:/shinji-kono.github.io/zf-in-agda/html/zorn.html)  Zorn lemma
 
-[Topology](html/Topology.html)  Topology
+[Topology](https:/shinji-kono.github.io/zf-in-agda/html/Topology.html)  Topology
 
-[Tychonoff](html/Tychonoff.html)
+[Tychonoff](https:/shinji-kono.github.io/zf-in-agda/html/Tychonoff.html)
 
-[VL](html/VL.html)  V and L
+[VL](https:/shinji-kono.github.io/zf-in-agda/html/VL.html)  V and L
 
-[cardinal](html/cardinal.html) Cardinals
+[cardinal](https:/shinji-kono.github.io/zf-in-agda/html/cardinal.html) Cardinals
 
-[filter](html/filter.html) Filter
+[filter](https:/shinji-kono.github.io/zf-in-agda/html/filter.html) Filter
 
-[filter-util](html/filter-util.html) Projection of Filter
+[filter-util](https:/shinji-kono.github.io/zf-in-agda/html/filter-util.html) Projection of Filter
 
-[generic-filter](html/generic-filter.html) Generic Filter
+[generic-filter](https:/shinji-kono.github.io/zf-in-agda/html/generic-filter.html) Generic Filter
 
-[maximum-filter](html/maximum-filter.html) Maximum filter by Zorn lemma
+[maximum-filter](https:/shinji-kono.github.io/zf-in-agda/html/maximum-filter.html) Maximum filter by Zorn lemma
 
-[ordinal](html/ordinal.html)   countable model of Ordinals
+[ordinal](https:/shinji-kono.github.io/zf-in-agda/html/ordinal.html)   countable model of Ordinals
 
-[ZProduct](html/ZProduct.html)
+[ZProduct](https:/shinji-kono.github.io/zf-in-agda/html/ZProduct.html)
 
-[OrdUtil](html/OrdUtil.html)
+[OrdUtil](https:/shinji-kono.github.io/zf-in-agda/html/OrdUtil.html)
 
-[PFOD](html/PFOD.html)
+[PFOD](https:/shinji-kono.github.io/zf-in-agda/html/PFOD.html)
 
 
 ## Ordinal Definable Set

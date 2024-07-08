@@ -25,59 +25,59 @@ record NAutomaton ( Q : Set ) ( Σ : Set  )
 
 ## Automaton in Agda
 
-[automaton](html/automaton.html)   automaton definition
+[automaton](https:/shinji-kono.github.io/auntomaton-in-agda/html/automaton.html)   automaton definition
 
-[nfa](html/nfa.html)               non deterministic
+[nfa](https:/shinji-kono.github.io/auntomaton-in-agda/html/nfa.html)               non deterministic
 
-[sbconst2](html/sbconst2.html)     subset construction
+[sbconst2](https:/shinji-kono.github.io/auntomaton-in-agda/html/sbconst2.html)     subset construction
 
-[regular-language](html/regular-language.html) Regular Language
+[regular-language](https:/shinji-kono.github.io/auntomaton-in-agda/html/regular-language.html) Regular Language
 
-[regex](html/regex.html)           Regular Expression
+[regex](https:/shinji-kono.github.io/auntomaton-in-agda/html/regex.html)           Regular Expression
 
-[finiteSet](html/finiteSet.html)   Finite Set
+[finiteSet](https:/shinji-kono.github.io/auntomaton-in-agda/html/finiteSet.html)   Finite Set
 
-[derive](html/derive.html)  generating FA from Regex
+[derive](https:/shinji-kono.github.io/auntomaton-in-agda/html/derive.html)  generating FA from Regex
 
-[pumping](html/pumping.html)  Pumping Lemma
+[pumping](https:/shinji-kono.github.io/auntomaton-in-agda/html/pumping.html)  Pumping Lemma
 
-[pumping](html/non-regular.html)  Application of Pumping Lemma
+[pumping](https:/shinji-kono.github.io/auntomaton-in-agda/html/non-regular.html)  Application of Pumping Lemma
 
-[turing](html/turing.html) Turing Machine
+[turing](https:/shinji-kono.github.io/auntomaton-in-agda/html/turing.html) Turing Machine
 
-[halt](html/halt.html) Halting Problem
+[halt](https:/shinji-kono.github.io/auntomaton-in-agda/html/halt.html) Halting Problem
 
-[automaton-ex](html/automaton-ex.html) 
+[automaton-ex](https:/shinji-kono.github.io/auntomaton-in-agda/html/automaton-ex.html) 
 
-[bijection](html/bijection.html) 
+[bijection](https:/shinji-kono.github.io/auntomaton-in-agda/html/bijection.html) 
 
-[cfg](html/cfg.html) 
+[cfg](https:/shinji-kono.github.io/auntomaton-in-agda/html/cfg.html) 
 
-[deriveUtil](html/deriveUtil.html) 
+[deriveUtil](https:/shinji-kono.github.io/auntomaton-in-agda/html/deriveUtil.html) 
 
-[even](html/even.html) 
+[even](https:/shinji-kono.github.io/auntomaton-in-agda/html/even.html) 
 
-[fin](html/fin.html) 
+[fin](https:/shinji-kono.github.io/auntomaton-in-agda/html/fin.html) 
 
-[finiteSetUtil](html/finiteSetUtil.html) 
+[finiteSetUtil](https:/shinji-kono.github.io/auntomaton-in-agda/html/finiteSetUtil.html) 
 
-[induction-ex](html/induction-ex.html) 
+[induction-ex](https:/shinji-kono.github.io/auntomaton-in-agda/html/induction-ex.html) 
 
-[libbijection](html/libbijection.html) 
+[libbijection](https:/shinji-kono.github.io/auntomaton-in-agda/html/libbijection.html) 
 
-[pushdown](html/pushdown.html) /
+[pushdown](https:/shinji-kono.github.io/auntomaton-in-agda/html/pushdown.html) /
 
-[puzzle](html/puzzle.html) /
+[puzzle](https:/shinji-kono.github.io/auntomaton-in-agda/html/puzzle.html) /
 
-[regex1-ex](html/regex1-ex.html) /
+[regex1-ex](https:/shinji-kono.github.io/auntomaton-in-agda/html/regex1-ex.html) /
 
-[regex2](html/regex2.html) /
+[regex2](https:/shinji-kono.github.io/auntomaton-in-agda/html/regex2.html) /
 
-[regular-concat](html/regular-concat.html) /
+[regular-concat](https:/shinji-kono.github.io/auntomaton-in-agda/html/regular-concat.html) /
 
-[regular-star](html/regular-star.html) /
+[regular-star](https:/shinji-kono.github.io/auntomaton-in-agda/html/regular-star.html) /
 
-[utm](html/utm.html) /
+[utm](https:/shinji-kono.github.io/auntomaton-in-agda/html/utm.html) /
 
 
 ## FiniteSet
