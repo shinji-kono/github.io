@@ -18,3 +18,7 @@ Shinji KONO (kono@ie.u-ryukyu.ac.jp), University of the Ryukyus
 ## Category Exercices in Agda
 
 [CategoryExercise](CategoryExercise/README.md)  
+
+## Glaois Theory in Agda
+
+[galois](galois/README.md)  
